@@ -14,7 +14,7 @@ export const HW4 = () => {
 
   const [currentText, setCurrentText] = useState('');
   const [texts, setTexts] = useState<string[]>([
-      'То, что вы делаете по ночам, то и делает вас богатым. (Аль Капоне)',
+    'То, что вы делаете по ночам, то и делает вас богатым. (Аль Капоне)',
   ]);
 
   const handleSave = () => {
@@ -32,7 +32,7 @@ export const HW4 = () => {
 
       <Input currentText={currentText} setCurrentText={setCurrentText}/>
 
-      <Button callBack={handleSave} name={'Save'} />
+      <Button callBack={handleSave} name={'Save'}/>
 
       <h1 style={{ marginTop: '50px' }}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
 
